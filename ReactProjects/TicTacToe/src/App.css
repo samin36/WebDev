@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&display=swap');
+
+* {
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  font-size: 26px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  line-height: 100px;
+  font-size: 66px;
+}
+
+.grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 306px; /* If the number of cell's total width exceeds 100*3 = 300px + 6px for borders = 306px, then wrap*/
+}
