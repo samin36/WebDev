@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+.stat {
+    float: left;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    color: #ffff00;
+}

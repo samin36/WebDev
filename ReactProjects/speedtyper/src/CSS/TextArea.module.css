@@ -1,0 +1,23 @@
+.wrapper {
+    width: 97%;
+    height: 59%;
+    margin: 1% 0% 3% 0%;
+    padding: 0% 2% 0% 2%;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    font-size: 25px;
+}
+
+
+.nextcharacter {
+    color: white;
+}
+
+.incorrect {
+    color: red;
+}
+
+.correct {
+    color: #a6a4a1;
+}
